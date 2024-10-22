@@ -11,6 +11,7 @@ initialize_renv.R
 
 ## ignore filtered CLIF tables stored as Rdata
 *.RData
+*.csv
 
 #ignore source CLIF_ files 
 CLIF_*.parquet
@@ -20,3 +21,6 @@ CLIF_*.fst
 # ignore rendered pdf and html
 *.pdf
 *.html
+
+# evn
+.ltach_ats24
