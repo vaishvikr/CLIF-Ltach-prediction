@@ -37,16 +37,19 @@ Follow instructions in the [config/README.md](config/README.md) file for detaile
 ## 2. Set up the project environment
 
 *Describe the steps to setup the project environment.*
-
-Example for R:
-run `00_renv_restore.R` in the `code` folder
  
 Example for Python:
 Open your terminal and run the following commands:
 ```
-python3 -m venv .mobilization
-source .mobilization/bin/activate
-pip install -r requirements.txt 
+if Mac/Linux:
+python3 -m venv .ltach_ats24
+source .ltach_ats24/bin/activate
+pip install -r requirements.txt
+
+if Windows:
+python -m venv .ltach_ats24
+call .ltach_ats24\Scripts\activate.bat
+pip install -r requirements.txt
 ```
 
 ## 3. Run cohort identification and analysis code
